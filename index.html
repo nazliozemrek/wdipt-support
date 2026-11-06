@@ -115,9 +115,9 @@
 
   <section id="privacy">
     <h2>Privacy Policy</h2>
-    <p class="muted">Effective October 24, 2026</p>
+    <p class="muted">Effective November 5, 2026</p>
 
-    <p><strong>WDIPT? does not collect any data.</strong> We have no servers, no accounts, no analytics, no ads and no tracking. Nothing you enter in the app is sent to us. If you choose to share with family, it's stored in your own iCloud account and shared only with the people you invite (see below).</p>
+    <p><strong>WDIPT? has no accounts, analytics, ads or trackers.</strong> We don't sell or share your data, and nothing is tied to your name or Apple Account. Your items stay on your iPhone. If you choose to share with family, they're stored in iCloud and shared only with the people invited (see below). Photo scan and AI estimates, which you use only if you want to, send what's described below through our server to Anthropic.</p>
 
     <h3>What stays on your iPhone</h3>
     <ul>
@@ -136,21 +136,31 @@
       <li><strong>Notifications:</strong> made on your iPhone when a family change arrives (someone can't find something, or moves something you put away). Item names are hidden on the Lock Screen unless you turn them on.</li>
     </ul>
 
+    <h3>Photo scan and AI estimates (optional, from version 1.2.2)</h3>
+    <p>These run only when you use them:</p>
+    <ul>
+      <li><strong>Photo scan:</strong> the photo you choose goes through our server, which runs on Cloudflare, to Anthropic, whose AI model Claude lists what's in it and suggests rough values.</li>
+      <li><strong>Estimate with AI:</strong> only the names and categories of the things you estimate go the same way.</li>
+    </ul>
+    <p>Our server doesn't store these photos or names, and doesn't log them. Anthropic doesn't train its models on them by default, and deletes them within 30 days, unless they're flagged under its usage policy or the law requires keeping them. See <a href="https://www.anthropic.com/legal/privacy">Anthropic's Privacy Policy</a>. Everything in a photo goes with it, so keep IDs and bank cards out of the frame.</p>
+    <p>To count scans and stop abuse, our server keeps a random key that Apple's App Attest creates on your iPhone and how many scans it has used this month. If you buy Pro, it also keeps the purchase's transaction ID, to count Pro scans and honor refunds. It limits requests using a keyed hash of your IP address that changes every day, not the address itself. None of this is tied to your name or Apple Account.</p>
+
     <h3>Services from Apple</h3>
     <ul>
       <li><strong>Face ID:</strong> handled entirely by iOS. The app only learns whether unlocking succeeded and never sees your face data.</li>
       <li><strong>Siri:</strong> what you say to Siri is processed by Apple under <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>. The app only receives the item and place you name.</li>
+      <li><strong>Purchases:</strong> Pro is bought through the App Store. Apple handles payment; we never see your payment details.</li>
       <li><strong>Backups:</strong> like most apps, your items are included in your iPhone backups (iCloud or computer) if you have backups turned on. These are controlled by your Apple account, not by us.</li>
     </ul>
 
     <h3>Permissions</h3>
-    <p>The app asks for the camera (photos and 3D scans), photo library (choosing a photo), location (optional GPS spot), notifications (forgotten-item reminders and family notifications) and Face ID. Each is optional and only used for the feature you choose. You can change them any time in the iPhone Settings app.</p>
+    <p>The app asks for the camera (photos and 3D scans), photo library (choosing a photo), location (optional GPS spot), notifications (forgotten-item reminders and family notifications) and Face ID. Each is optional and only used for the feature you choose. Apart from photos you choose to scan, the camera, photo library and location are used only on your iPhone. You can change them any time in the iPhone Settings app.</p>
 
     <h3>Children</h3>
-    <p>The app doesn't collect personal information from anyone, including children.</p>
+    <p>The app doesn't knowingly collect personal information from anyone, including children.</p>
 
     <h3>Deleting your data</h3>
-    <p>Delete an item in the app to remove it, its photo, location and 3D pin; with family sharing on, it's removed for everyone. Delete a 3D space to remove its room scan. Deleting the app removes everything it stored on that iPhone; to remove the shared copy in iCloud, stop sharing first.</p>
+    <p>Delete an item in the app to remove it, its photo, location and 3D pin; with family sharing on, it's removed for everyone. Delete a 3D space to remove its room scan. Deleting the app removes everything it stored on that iPhone; to remove the shared copy in iCloud, stop sharing first. Our server keeps no photos or item names; its scan counts are tied only to a random key and start again each month.</p>
 
     <h3>Changes and contact</h3>
     <p>If this policy changes, we'll update this page and its date. Questions: <a href="mailto:nazliozemrek@gmail.com">nazliozemrek@gmail.com</a>.</p>
